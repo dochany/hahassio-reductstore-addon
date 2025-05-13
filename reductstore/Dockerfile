@@ -1,0 +1,1 @@
+FROM reduct/store:latest
