@@ -1,0 +1,15 @@
+{
+  "name": "ReductStore",
+  "version": "1.0",
+  "slug": "reductstore",
+  "description": "ReductStore - Time series log storage",
+  "startup": "services",
+  "boot": "auto",
+  "webui": "http://[HOST]:[PORT:8383]",
+  "host_network": true,
+  "ports": {
+    "8383/tcp": 8383
+  },
+  "arch": ["armv7", "aarch64", "amd64"],
+  "image": "reduct/store"
+}
