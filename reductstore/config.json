@@ -15,6 +15,5 @@
   "ports": {
     "8383/tcp": 8383
   },
-  "arch": ["armv7", "aarch64", "amd64"],
-  "image": "reduct/store:latest"
+  "arch": ["armv7", "aarch64", "amd64"]
 }
