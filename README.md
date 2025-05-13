@@ -1,0 +1,1 @@
+# hahassio-reductstore-addon
