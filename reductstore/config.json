@@ -5,11 +5,6 @@
   "description": "ReductStore - Time series log storage",
   "startup": "services",
   "boot": "auto",
-  "ingress": true,
-  "ingress_port": 8383,
-  "ingress_path": "/",
-  "panel_icon": "mdi:database",
-  "panel_title": "ReductStore",
   "webui": "http://[HOST]:[PORT:8383]",
   "host_network": true,
   "ports": {
